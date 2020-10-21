@@ -1,3 +1,70 @@
+html {
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-size: 65%;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+/* TEXT PART */
+.text-container {
+  flex: 1 1 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8rem;
+}
+
+.description {
+  font-size: 3.8rem;
+  color: hsl(240, 38%, 20%);
+  font-weight: lighter;
+}
+
+.profile {
+  display: flex;
+  padding-top: 2rem;
+  align-items: center;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(240, 38%, 20%);
+}
+
+.job {
+  font-size: 1.7rem;
+  margin-left: 0.5rem;
+}
+
+.inactive {
+  opacity: 0;
+  visibility: 0;
+  display: none;
+}
+
+.slider-container {
+  flex: 1 1 40rem;
+}
+#slide-background {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  z-index: -1;
+}
+#curve-background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#quote-background {
+  position: absolute;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
