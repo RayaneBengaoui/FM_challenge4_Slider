@@ -7,32 +7,40 @@ html {
 }
 
 main {
+}
+
+.slides {
   display: flex;
+  max-width: 1200px;
+  margin: 5rem auto;
+  min-height: 80vh;
 }
 
 /* TEXT PART */
 .text-container {
-  flex: 1 1 40rem;
+  width: 80rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 8rem;
+  /* align-items: center;
+  justify-content: center; */
+  margin-top: 26rem;
+  z-index: 2;
+  position: relative;
 }
 
 .description {
-  font-size: 3.8rem;
+  font-size: 4rem;
   color: hsl(240, 38%, 20%);
   font-weight: lighter;
 }
 
 .profile {
   display: flex;
-  padding-top: 2rem;
+  padding-top: 5rem;
   align-items: center;
 }
 
 .name {
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 700;
   color: hsl(240, 38%, 20%);
 }
@@ -49,21 +57,64 @@ main {
 }
 
 .slider-container {
-  flex: 1 1 40rem;
+  position: relative;
+  width: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.people-img {
+  position: absolute;
+
+  top: 15rem;
+  right: -2rem;
+}
+
+.slider-controller {
+  position: absolute;
+  bottom: 3rem;
+  left: 1rem;
+}
+
+button {
+  padding: 1.2rem 2rem;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  outline: none;
+
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: hsl(240, 18%, 77%);
+}
+
+#left-button {
+  border-radius: 25px 0px 0px 25px;
+}
+#right-button {
+  border-radius: 0px 25px 25px 0px;
+}
+
 #slide-background {
   position: absolute;
-  top: 10%;
-  left: 50%;
+  top: 10rem;
+  right: -10rem;
   z-index: -1;
+  /* transform: translate(-50%, -50%); */
 }
 #curve-background {
   position: absolute;
   bottom: 0;
   left: 0;
+  z-index: -1;
 }
 #quote-background {
   position: absolute;
+  top: -5.8rem;
+  left: 14rem;
 }
 .attribution {
   font-size: 11px;
