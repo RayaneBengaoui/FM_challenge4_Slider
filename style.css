@@ -205,7 +205,7 @@ button:hover {
 }
 
 @media screen and (max-width: 380px) {
-  .slides {
+  /* .slides {
     flex-direction: column-reverse;
     margin: 0;
     justify-content: center;
@@ -275,5 +275,5 @@ button:hover {
     width: 7rem;
     top: 2.4rem;
     left: 31rem;
-  }
+  } */
 }
