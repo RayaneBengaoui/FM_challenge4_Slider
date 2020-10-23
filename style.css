@@ -6,9 +6,6 @@ html {
   font-family: "Inter", sans-serif;
 }
 
-main {
-}
-
 .slides {
   display: flex;
   max-width: 1200px;
@@ -20,11 +17,13 @@ main {
 .text-container {
   width: 80rem;
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
   margin-top: 26rem;
   z-index: 2;
   position: relative;
+}
+
+.text {
+  transition: 0.5s;
 }
 
 .description {
@@ -51,9 +50,11 @@ main {
 }
 
 .inactive {
+  position: absolute;
+
   opacity: 0;
   visibility: 0;
-  display: none;
+  transition: 0.5s;
 }
 
 .slider-container {
@@ -69,6 +70,7 @@ main {
 
   top: 15rem;
   right: -2rem;
+  transition: 0.5s;
 }
 
 .slider-controller {

@@ -12,6 +12,11 @@ rightBtn.addEventListener("click", () => {
   showDivs((slideIndex += 1));
 });
 
+function removeInactive() {
+  texts[slideIndex - 1].classList.remove("inactive");
+  images[slideIndex - 1].classList.remove("inactive");
+}
+
 function showDivs(n) {
   if (n > texts.length) {
     slideIndex = 1;
@@ -23,10 +28,6 @@ function showDivs(n) {
     texts[i].classList.add("inactive");
     images[i].classList.add("inactive");
   }
-  texts[slideIndex - 1].classList.remove("inactive");
-  images[slideIndex - 1].classList.remove("inactive");
-  console.log(slideIndex);
-}
 
-//Call
-// showDivs(slideIndex);
+  setTimeout(removeInactive, 500);
+}
