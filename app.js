@@ -29,5 +29,5 @@ function showDivs(n) {
     images[i].classList.add("inactive");
   }
 
-  setTimeout(removeInactive, 500);
+  setTimeout(removeInactive, 200);
 }
