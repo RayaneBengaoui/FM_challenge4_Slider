@@ -245,7 +245,7 @@ button:hover {
   }
 
   #curve-background {
-    width: 50rem;
+    width: 370px;
     bottom: 0;
   }
 
@@ -254,9 +254,9 @@ button:hover {
   }
 
   #quote-background {
-    width: 7rem;
-    top: 2.4rem;
-    left: 31rem;
+    width: 5rem;
+    top: -3rem;
+    left: 16rem;
   }
 
   .people-img {
