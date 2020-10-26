@@ -226,6 +226,10 @@ button:hover {
   .job {
     font-size: 1rem;
   }
+
+  .text {
+    margin-top: 3rem;
+  }
   .text-container {
     width: 370px;
     height: 50vh;
@@ -255,11 +259,12 @@ button:hover {
 
   #quote-background {
     width: 5rem;
-    top: -3rem;
+    top: 0rem;
     left: 16rem;
   }
 
   .people-img {
+    margin-top: 1rem;
     width: 250px;
   }
 
@@ -268,7 +273,5 @@ button:hover {
     font-size: 0.8rem;
     margin: 0 0;
     text-align: center;
-    /* left: 125%;
-    transform: translateX(-125%); */
   }
 }
