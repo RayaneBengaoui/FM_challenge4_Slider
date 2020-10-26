@@ -205,75 +205,70 @@ button:hover {
 }
 
 @media screen and (max-width: 380px) {
-  /* .slides {
-    flex-direction: column-reverse;
-    margin: 0;
-    justify-content: center;
-  }
-
-  .text-container {
-    width: 700px;
-    display: flex;
-    margin: 0 auto;
+  main {
+    min-height: 100vh;
   }
 
   .description {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-align: center;
-    margin: 0 5rem;
-    margin-top: 6rem;
+    margin: 0 3rem;
   }
 
   .profile {
-    display: flex;
-    padding-top: 2rem;
-    align-items: center;
-    justify-content: center;
+    padding-top: 4rem;
   }
 
   .name {
     font-size: 1.5rem;
-    font-weight: 700;
-    color: hsl(240, 38%, 20%);
   }
 
   .job {
-    font-size: 1.2rem;
-    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
+  .text-container {
+    width: 370px;
+    height: 50vh;
   }
 
   .slider-container {
-    height: 50rem;
-    width: 700px;
-    margin: 0 auto;
+    width: 370px;
+    height: 50vh;
   }
 
-  .people-img {
-    width: 40rem;
-
-    transition: 0.5s;
-    top: initial;
-    right: initial;
+  button {
+    padding: 0.8rem 1.5rem;
   }
 
   .slider-controller {
-    bottom: 2.7rem;
-    left: initial;
-  }
-
-  #slide-background {
-    width: 50rem;
-    top: initial;
-    right: initial;
-    z-index: -1;
+    bottom: 6rem;
   }
 
   #curve-background {
-    width: 45rem;
+    width: 50rem;
+    bottom: 0;
   }
+
+  #slide-background {
+    width: 320px;
+  }
+
   #quote-background {
     width: 7rem;
     top: 2.4rem;
     left: 31rem;
-  } */
+  }
+
+  .people-img {
+    width: 250px;
+  }
+
+  .attribution {
+    width: 100vw;
+    font-size: 0.8rem;
+    margin: 0 0;
+    text-align: center;
+    /* left: 125%;
+    transform: translateX(-125%); */
+  }
 }
